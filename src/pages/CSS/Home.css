@@ -40,50 +40,52 @@
 }
 
 .GetStarted {
-    padding: 15px 25px;
-    border: unset;
-    border-radius: 15px;
-    min-width: max-content;
-    color: #212121;
-    z-index: 1;
-    background: #e8e8e8;
-    position: relative;
-    font-weight: 1000;
-    font-size: 20px;
-    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
-    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
-    transition: all 250ms;
-    overflow: hidden;
-    box-shadow: 0px 0px 20px black;
-    margin-top: auto;
-    margin-bottom: 5%;
-    margin-right: auto;
+  padding: 15px 25px;
+  border: unset;
+  border-radius: 15px;
+  min-width: max-content;
+  color: #212121;
+  z-index: 1;
+  background: #e8e8e8;
+  position: relative;
+  font-weight: 1000;
+  font-size: 20px;
+  -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+  box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+  transition: all 0.3s ease;
+  overflow: hidden;
+  box-shadow: 0px 0px 20px black;
+  margin-top: auto;
+  margin-bottom: 5%;
+  margin-right: auto;
+  transition: all 0.3s ease;
 }
 
-.GetStarted::before{
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 0;
-    border-radius: 15px;
-    background-color: #212121;
-    z-index: -1; 
-    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
-    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
-    transition: all 250ms;
+.GetStarted::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 0;
+  border-radius: 15px;
+  background-color: #212121;
+  z-index: -1; 
+  -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+  box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+  transition: all 0.3s ease;
 }
 
 .GetStarted:hover {
-    transform: scale(1.1);
-    color: #e8e8e8;
-    box-shadow: 0px 0px 30px rgb(255, 255, 255);
+  transform: scale(1.1); 
+  color: #e8e8e8;
+  box-shadow: 0px 0px 30px rgb(255, 255, 255);
 }
 
 .GetStarted:hover::before {
-    width: 100%; 
+  width: 100%;
 }
+
 
 .Quote {
     display: flex;
