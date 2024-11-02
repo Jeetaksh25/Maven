@@ -51,7 +51,7 @@ const Home = () => {
 
     <div class="Blocks1">
         <div class="Block1" data-aos="zoom-in">
-            <img src="https://github.com/Jeetaksh25/Maven/blob/main/public/Content/images/Identifying%20problems.jpg?raw=true" width="250px" height="200px" class="Block1img" loading='lazy'/>
+            <img src="https://raw.githubusercontent.com/Jeetaksh25/Maven/refs/heads/main/public/Content/images/Identifying%20problems.jpg" width="250px" height="200px" class="Block1img" loading='lazy'/>
             <div><p class="Block1text">Identifying your problems</p></div>
         </div>
         <div class="Block1" data-aos="zoom-in">
