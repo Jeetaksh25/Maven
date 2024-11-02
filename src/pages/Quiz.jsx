@@ -214,7 +214,7 @@ const Quiz = () => {
 
   const showQuestion = questions[currentQuestionIndex];
 
-  const resultType = None;
+  let resultType = null;
 
   const selectOption = (score, index) => {
     setTotalScore(prevScore => prevScore + score);
@@ -291,8 +291,9 @@ const Quiz = () => {
       ) : (
         <div className='result-container'>
           <h2>{getResultMessage()}</h2>
-          <button className='continue-button' onClick={() => navigate('/guide')}>
-            Continue
+          <button className="continue-button" onClick={() => navigate('/guide')}>Continue
+            <span class="icon-right"></span>
+            <span class="icon-right after"></span>
           </button>
         </div>
       )}
