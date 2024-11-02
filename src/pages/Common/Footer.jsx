@@ -15,22 +15,22 @@ const Footer = () => {
         </div>
         <ul className="social-icon">
           <li className="social-icon__item">
-            <a className="social-icon__link" href="#">
+            <a className="social-icon__link" href="https://www.facebook.com/batman/" target='_blanck'>
               <IonIcon icon={logoFacebook} />
             </a>
           </li>
           <li className="social-icon__item">
-            <a className="social-icon__link" href="#">
+            <a className="social-icon__link" href="https://x.com/batman" target='_blanck'>
               <IonIcon icon={logoTwitter} />
             </a>
           </li>
           <li className="social-icon__item">
-            <a className="social-icon__link" href="#">
+            <a className="social-icon__link" href="https://www.linkedin.com/in/jeetaksh-luhaniwal-797843222?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target='_blanck'>
               <IonIcon icon={logoLinkedin} />
             </a>
           </li>
           <li className="social-icon__item">
-            <a className="social-icon__link" href="#">
+            <a className="social-icon__link" href="https://www.instagram.com/jeetaksh2506/" target='_blanck'>
               <IonIcon icon={logoInstagram} />
             </a>
           </li>
@@ -55,7 +55,7 @@ const Footer = () => {
             <Link to="/login" className="menu__link">Login</Link>
           </li>
           <li className="menu__item">
-            <Link to="/register" className="menu__link">Register</Link>
+            <Link to="/login" className="menu__link">Register</Link>
           </li>
         </ul>
         <p>&copy;2023 Maven | All Rights Reserved</p>
