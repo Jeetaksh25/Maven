@@ -7,7 +7,7 @@ const Disorders = () => {
   
   return (
     <div className='MainC'>
-
+        <h1 style={{fontSize: "55px"}}>Disorders</h1>
       <div className='contentC'>
         <h1 className='title'>Anxiety Disorders</h1>
         <p className='content'>
