@@ -19,34 +19,240 @@
     font-size: 30px;
     text-decoration: none;
     backdrop-filter: blur(10px);
-    background-color:rgba(0, 0, 0, 0.325);
+    background-color:rgba(0, 0, 0, 0.225);
+    color: white;
     padding: 25px;
     border-radius: 50%;
     transition: all 0.3s ease;
+    box-shadow: 0px 0px 20px white;
 }
 
 .level2 {
     position: absolute;
-    top: 84.8%;
-    left: 72.5%;
+    top: 280.5%;
+    left: 68.1%;
     font-size: 30px;
     text-decoration: none;
     backdrop-filter: blur(10px);
-    background-color:rgba(0, 0, 0, 0.325);
+    background-color:rgba(0, 0, 0, 0.225);
+    color: white;
     padding: 25px;
     border-radius: 50%;
     transition: all 0.3s ease;
+    box-shadow: 0px 0px 20px white;
 }
 
 .level3 {
     position: absolute;
-    top: 80.7%;
-    left: 46.7%;
+    top: 268%;
+    left: 47.4%;
     font-size: 30px;
     text-decoration: none;
     backdrop-filter: blur(10px);
-    background-color:rgba(0, 0, 0, 0.325);
+    background-color:rgba(0, 0, 0, 0.225);
+    color: white;
     padding: 25px;
     border-radius: 50%;
     transition: all 0.3s ease;
+    box-shadow: 0px 0px 20px white;
+}
+
+.level4 {
+    position: absolute;
+    top: 243%;
+    left: 36.8%;
+    font-size: 30px;
+    text-decoration: none;
+    backdrop-filter: blur(10px);
+    background-color:rgba(0, 0, 0, 0.225);
+    color: white;
+    padding: 25px;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+    box-shadow: 0px 0px 20px white;
+}
+
+.level5 {
+    position: absolute;
+    top: 221.5%;
+    left: 52.8%;
+    font-size: 30px;
+    text-decoration: none;
+    backdrop-filter: blur(10px);
+    background-color:rgba(0, 0, 0, 0.225);
+    color: white;
+    padding: 25px;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+    box-shadow: 0px 0px 20px white;
+}
+
+.level6 {
+    position: absolute;
+    top: 210%;
+    left: 70.5%;
+    font-size: 30px;
+    text-decoration: none;
+    backdrop-filter: blur(10px);
+    background-color:rgba(0, 0, 0, 0.225);
+    color: white;
+    padding: 25px;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+    box-shadow: 0px 0px 20px white;
+}
+
+.level7 {
+    position: absolute;
+    top: 183.5%;
+    left: 76.3%;
+    font-size: 30px;
+    text-decoration: none;
+    backdrop-filter: blur(10px);
+    background-color:rgba(0, 0, 0, 0.225);
+    color: white;
+    padding: 25px;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+    box-shadow: 0px 0px 20px white;
+}
+
+.level8 {
+    position: absolute;
+    top: 167%;
+    left: 62%;
+    font-size: 30px;
+    text-decoration: none;
+    backdrop-filter: blur(10px);
+    background-color:rgba(0, 0, 0, 0.225);
+    color: white;
+    padding: 25px;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+    box-shadow: 0px 0px 20px white;
+}
+
+.level9{
+    position: absolute;
+    top: 159.5%;
+    left: 41.5%;
+    font-size: 30px;
+    text-decoration: none;
+    backdrop-filter: blur(10px);
+    background-color:rgba(0, 0, 0, 0.225);
+    color: white;
+    padding: 25px;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+    box-shadow: 0px 0px 20px white;
+}
+
+.level10{
+    position: absolute;
+    top: 135.5%;
+    left: 38.8%;
+    font-size: 30px;
+    text-decoration: none;
+    backdrop-filter: blur(10px);
+    background-color:rgba(0, 0, 0, 0.225);
+    color: white;
+    padding: 25px;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+    box-shadow: 0px 0px 20px white;
+}
+
+.level11{
+    position: absolute;
+    top: 112.5%;
+    left: 53.5%;
+    font-size: 30px;
+    text-decoration: none;
+    backdrop-filter: blur(10px);
+    background-color:rgba(0, 0, 0, 0.225);
+    color: white;
+    padding: 25px;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+    box-shadow: 0px 0px 20px white;
+}
+
+.level12{
+    position: absolute;
+    top: 99.5%;
+    left: 75%;
+    font-size: 30px;
+    text-decoration: none;
+    backdrop-filter: blur(10px);
+    background-color:rgba(0, 0, 0, 0.225);
+    color: white;
+    padding: 25px;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+    box-shadow: 0px 0px 20px white;
+}
+
+.level13{
+    position: absolute;
+    top: 72%;
+    left: 69.8%;
+    font-size: 30px;
+    text-decoration: none;
+    backdrop-filter: blur(10px);
+    background-color:rgba(0, 0, 0, 0.225);
+    color: white;
+    padding: 25px;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+    box-shadow: 0px 0px 20px white;
+}
+
+.level14{
+    position: absolute;
+    top: 61.5%;
+    left: 50%;
+    font-size: 30px;
+    text-decoration: none;
+    backdrop-filter: blur(10px);
+    background-color:rgba(0, 0, 0, 0.225);
+    color: white;
+    padding: 25px;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+    box-shadow: 0px 0px 20px white;
+}
+
+.level15 {
+    position: absolute;
+    top: 45%;
+    left: 33.4%;
+    font-size: 30px;
+    text-decoration: none;
+    backdrop-filter: blur(10px);
+    background-color:rgba(0, 0, 0, 0.225);
+    color: white;
+    padding: 25px;
+    border-radius: 50%;
+    transition: all 0.3s ease; 
+    box-shadow: 0px 0px 20px white;
+}
+
+.level16 {
+    position: absolute;
+    top: 21.7%;
+    left: 47.8%;
+    font-size: 30px;
+    text-decoration: none;
+    backdrop-filter: blur(10px);
+    background-color:rgba(0, 0, 0, 0.225);
+    color: white;
+    padding: 25px;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+    box-shadow: 0px 0px 20px white;
+}
+
+.level1:hover, .level2:hover, .level3:hover, .level4:hover, .level5:hover, .level6:hover, .level7:hover, .level8:hover, .level9:hover, .level10:hover, .level11:hover, .level12:hover, .level13:hover, .level14:hover, .level15:hover, .level16:hover {
+    scale: 1.4;
+    box-shadow: 0px 0px 30px rgb(255, 255, 255);
 }
