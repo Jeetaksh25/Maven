@@ -6,7 +6,7 @@ body {
   min-width: 100%;
   min-height: 100%;
   z-index: -1;  
-  background-image: url("./public/Content/Background/bg2.jpg");
+  background-image: url("./public/Content/Background/bg3.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -190,7 +190,7 @@ body {
   row-gap: 0px;
   width: 60%;
   margin: 60px auto 20px auto;
-  border-radius: 20px;
+  border-radius: 30px;
   backdrop-filter: blur(10px);
   background-color:rgba(0, 0, 0, 0.325);
   padding: 30px;
@@ -222,7 +222,7 @@ body {
   align-items: center;
   row-gap: 4rem;
   column-gap: 15rem;
-  width: 70%;
+  width: 80%;
   border-radius: 30px;
   transition: 0.3s;
   margin-top: 20px;
@@ -252,7 +252,7 @@ body {
   height: 300px;
   border-radius: 50%; 
   object-fit: cover; 
-  box-shadow: 0px 0px 20px black;
+  box-shadow: 0px 0px 20px rgb(255, 255, 255);
   z-index: 0; 
 }
 
@@ -320,7 +320,7 @@ body {
     padding: 30px;
     align-items: center;
     width: 80%;
-    margin: 60px auto;
+    margin: 100px auto;
     gap: 40px;
     border-radius: 30px;
     backdrop-filter: blur(10px);

@@ -27,7 +27,7 @@ const Home = () => {
   
   return (
     <>
-      <h1 align="center" style={{ fontSize: "50px",marginTop: "5px",display: "block", justifyContent: "center", alignItems: "center",color: "black"}}>Maven, Your Friend</h1>
+      <h1 align="center" style={{ fontSize: "50px",marginTop: "5px",display: "block", justifyContent: "center", alignItems: "center",color: "white"}}>Maven, Your Friend</h1>
       <div className='intro'>
         <div className='introL'>
           <img src="/public/Content/images/Maven.png" alt="Maven" width={400} />
@@ -45,8 +45,8 @@ const Home = () => {
       </div>
 
       <div class="ServicesC">
-        <h1>Our Services</h1>
-        <p>At Maven, we are dedicated to providing effective psychotherapy methods that promote self-understanding and empower individuals to adopt new attitudes and emotions towards life's challenges. Since our establishment in 2023, we have been committed to offering a comprehensive range of personalized mental health services to individuals in the greater San Francisco area. From minor difficulties to traumatic experiences, we are here to support you on your journey to mental well-being.</p>
+        <h1>Key Features</h1>
+        <p>At Maven, we are dedicated to providing effective psychotherapy methods that promote self-understanding and empower individuals to adopt new attitudes and emotions towards life's challenges. Since our establishment in 2023, we have been committed to offering a comprehensive range of personalized mental health services to individuals. From minor difficulties to traumatic experiences, we are here to support you on your journey to mental well-being.</p>
     </div>
 
     <div class="Blocks1">
@@ -170,7 +170,7 @@ const Home = () => {
         </div>
     </div>
 
-    <div className='QuizC' id="targetSection">
+    <div className='QuizC' id="targetSection" data-aos="fade-up">
       <h1 align="center">Know Yourself</h1>
       <p>This is a simple quiz like test that will help you understand your mental health.</p>
       <p>This quiz will give you a personalized guide.</p>
