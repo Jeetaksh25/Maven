@@ -89,7 +89,7 @@
     text-align: center;
 }
 
-button {
+.continue-button {
     font-family: 'Poppins', sans-serif;
     letter-spacing: 2px;
     background: none;
@@ -106,7 +106,7 @@ button {
     overflow: hidden;
   }
   
-  button:before {
+  .continue-button:before {
     content: "";
     position: absolute;
     left: 0;
@@ -118,7 +118,7 @@ button {
     transition: 0.3s ease-in all;
   }
   
-  button:after {
+  .continue-button:after {
     content: "";
     position: absolute;
     left: -5%;
@@ -129,28 +129,28 @@ button {
     transition: 0.4s 0.02s ease-in all;
   }
   
-  button:hover {
+  .continue-button:hover {
     cursor: pointer;
     color: transparent;
   }
   
-  button:hover:before {
+  .continue-button:hover:before {
     left: 120%;
     width: 25%;
   }
   
-  button:hover:after {
+  .continue-button:hover:after {
     left: 100%;
     width: 70%;
   }
   
-  button:hover > .icon-right.after:after {
+  .continue-button:hover > .icon-right.after:after {
     left: -80px;
     color: rgb(0, 0, 0);
     transition: 0.2s 0.2s ease all;
   }
   
-  button:hover > .icon-right.after:before {
+  .continue-button:hover > .icon-right.after:before {
     left: -104px;
     top: 14px;
     opacity: 0.2;
