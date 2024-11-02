@@ -52,6 +52,7 @@ body {
 }
 
 .introR h1 {
+  margin-bottom: 20px;
   color: white;
 }
 
@@ -158,11 +159,12 @@ body {
 }
 
 .Block1img {
+  height: 200px;
   border-radius: 20px;
   margin: 10px auto;
   width: 16rem;
   box-shadow: 0 0 20px;
-  transition: all 0.3s ease;
+  transition: all 0.3s;
 }
 
 .Block1text {
@@ -320,7 +322,7 @@ body {
     padding: 30px;
     align-items: center;
     width: 80%;
-    margin: 100px auto;
+    margin: 60px auto;
     gap: 40px;
     border-radius: 30px;
     backdrop-filter: blur(10px);

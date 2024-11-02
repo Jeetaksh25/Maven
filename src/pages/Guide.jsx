@@ -28,5 +28,3 @@ const Guide = () => {
 }
 
 export default Guide
-
-//https://youtu.be/MoQVgJx_QN4?si=jo5Nh0HLcfBnj7P0
