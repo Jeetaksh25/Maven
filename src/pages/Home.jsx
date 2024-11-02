@@ -177,7 +177,6 @@ const Home = () => {
         <Button className="GetStarted" data-aos="zoom-in">Start Quiz</Button>
       </Link>
     </div>
-
     </>
   );
 };

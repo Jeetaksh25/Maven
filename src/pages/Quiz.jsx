@@ -1,8 +1,13 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './CSS/Quiz.css';
 
 const Quiz = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
+
   const questions = [
     {
       question: "How often do you experience excessive worry or anxiety?",
@@ -259,11 +264,13 @@ const Quiz = () => {
     }
   };
   return (
+    <>
+    <video src="/public/Content/Background/Quizbg1.mp4" autoPlay muted loop id='bg'/>
     <div className="quiz">
       <div className={`quizContainer ${showResult ? 'fade-out' : 'fade-in'}`}>
       {!showResult ? (
         <div className='question-container'>
-          <h2>{showQuestion.question}</h2>
+          <h2 className='question'>{showQuestion.question}</h2>
           <div className='options-container'>
             {showQuestion.options.map((option, index) => (
               <button 
@@ -287,6 +294,8 @@ const Quiz = () => {
       )}
     </div>
     </div>
+    </>
+
   );
 };
 

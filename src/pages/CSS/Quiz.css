@@ -2,7 +2,6 @@
     width: 100%;
     height: 100%;
     padding: 3rem;
-    background-image: url("https://img.freepik.com/free-vector/realistic-autumn-leaves-background_23-2148624140.jpg?semt=ais_hybrid");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -13,8 +12,8 @@
     display: flex;
     flex-direction: column; 
     align-items: flex-start; 
-    backdrop-filter: blur(10px);
-    background-color: rgba(255, 255, 255, 0.238);
+    backdrop-filter: blur(5px);
+    background-color: rgba(255, 255, 255, 0.16);
     padding: 40px;
     border-radius: 20px;
     box-shadow: 0 px 20px rgb(0, 0, 0);
@@ -24,6 +23,12 @@
     height: max-content;
     transition: opacity 0.5s ease-in-out;
     
+}
+
+.question {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
 }
 .option {
     display: block;
@@ -39,7 +44,7 @@
 }
 
 
-.option.selected {
+.option.selected:hover {
     background-color: #4caf50; 
 }
 
@@ -201,4 +206,12 @@
     color: rgb(0, 0, 0);
     text-transform: uppercase;
     text-decoration: none;
+  }
+
+  #bg {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
   }
