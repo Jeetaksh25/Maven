@@ -2,8 +2,8 @@ import React from 'react'
 
 const Disorders = () => {
   return (
-    <div>
-      Disorders
+    <div className='MainC'>
+
     </div>
   );
 }
