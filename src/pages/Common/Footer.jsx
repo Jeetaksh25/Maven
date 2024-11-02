@@ -58,7 +58,7 @@ const Footer = () => {
             <Link to="/register" className="menu__link">Register</Link>
           </li>
         </ul>
-        <p>&copy;2024 Maven | All Rights Reserved</p>
+        <p>&copy;2023 Maven | All Rights Reserved</p>
       </footer>
     </div>
   );
