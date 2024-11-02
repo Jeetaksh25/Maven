@@ -1,6 +1,10 @@
-import React from 'react'
+import React, { useEffect} from 'react'
 import "./CSS/Disorders.css"
 const Disorders = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+  
   return (
     <div className='MainC'>
 

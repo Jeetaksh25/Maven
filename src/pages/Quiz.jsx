@@ -215,7 +215,7 @@ const Quiz = () => {
   const [totalScore, setTotalScore] = useState(0);
   const [showResult, setShowResult] = useState(false);
   const [selectedOptionIndex, setSelectedOptionIndex] = useState(null); 
-  const [resultMessage, setResultMessage] = useState(""); // State for result message
+  const [resultMessage, setResultMessage] = useState("");
   const navigate = useNavigate();
 
   const showQuestion = questions[currentQuestionIndex];

@@ -18,7 +18,7 @@ const Login = () => {
         <div className='container'>
           <div className='login-container'>
             <h2 className='title'>{isRegister ? 'Register' : 'Login'}</h2>
-            <form onSubmit={handleSubmit}>
+            <form onSubmit={handleSubmit} className='loginform' style={{marginTop: "8rem",rowGap: "3rem"}}>
                 <input
                     type="text"
                     placeholder="Enter Username"
@@ -32,7 +32,6 @@ const Login = () => {
                 {isRegister ? 'Already have an account? Login' : 'New user? Register'}
             </button>
           </div>
-
         </div>
     );
 };

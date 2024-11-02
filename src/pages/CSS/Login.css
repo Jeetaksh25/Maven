@@ -38,8 +38,9 @@ form {
     align-items: center;
     height: 30%;
     box-sizing: border-box;
-    margin-top: 10rem;
-    row-gap: 5rem;
+    margin-top: 2rem;
+    row-gap: 1.5rem;
+    padding-bottom: 2rem;
 }
 
 input {
