@@ -12,6 +12,7 @@ const Home = () => {
       duration: 900,
       once: true,
     });
+    window.scrollTo(0, 0);
     AOS.refresh(); 
   }, []);
 
