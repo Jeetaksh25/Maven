@@ -18,7 +18,7 @@ const Login = () => {
         <div className='container'>
           <div className='login-container'>
             <h2 className='title'>{isRegister ? 'Register' : 'Login'}</h2>
-            <form onSubmit={handleSubmit} className='loginform' style={{marginTop: "8rem",rowGap: "3rem"}}>
+            <form onSubmit={handleSubmit} className='loginform' style={{marginTop: "3rem",rowGap: "2rem"}}>
                 <input
                     type="text"
                     placeholder="Enter Username"
@@ -26,6 +26,8 @@ const Login = () => {
                     onChange={(e) => setUsername(e.target.value)}
                     required
                 />
+                <input type="email" placeholder="Enter Email" />
+                <input type="password" placeholder="Enter Password" />
                 <button type="submit" className='login'>{isRegister ? 'Register' : 'Login'}</button>
             </form>
             <button onClick={() => setIsRegister(!isRegister)} className='login2'>
