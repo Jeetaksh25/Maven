@@ -30,7 +30,7 @@ const Footer = () => {
             </a>
           </li>
           <li className="social-icon__item">
-            <a className="social-icon__link" href="https://www.instagram.com/jeetaksh2506/" target='_blanck'>
+            <a className="social-icon__link" href="https://www.instagram.com/jeetaksh2506/profilecard/?igsh=MW9ndmNnYnVuMzd5YQ==" target='_blanck'>
               <IonIcon icon={logoInstagram} />
             </a>
           </li>
