@@ -1,8 +1,12 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useAuth } from './Common/AuthContext';
 import { useNavigate } from 'react-router-dom'; 
 import './CSS/Login.css';
 const Login = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
+
     const [isRegister, setIsRegister] = useState(false);
     const [username, setUsername] = useState('');
     const { login } = useAuth();
