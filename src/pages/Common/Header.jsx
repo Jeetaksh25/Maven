@@ -8,7 +8,7 @@ const Header = () => {
     const { user, logout } = useAuth();
 
     return (
-        <div className='headerC'>
+        <header className='headerC'>
             <nav>
                 <ul type="none" className='left-nav'>
                     <li><Link to="/" className={`headerIh ${location.pathname === "/" ? "active" : ""}`}><FaIcons.FaHome size={33}/></Link></li>
@@ -29,7 +29,7 @@ const Header = () => {
                     )}
                 </ul>
             </nav>
-        </div>
+        </header>
     );
 }
 
