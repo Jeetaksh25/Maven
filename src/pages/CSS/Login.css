@@ -43,6 +43,20 @@ form {
     padding-bottom: 2rem;
 }
 
+.pass {
+    display: flex;
+    flex-direction: row;
+    width: max-content;
+    height: auto;
+    border: none;
+    border-radius: 15px;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    backdrop-filter: blur(10px);
+    background-color:rgba(0, 0, 0, 0.325);
+    color: white;
+}
+
 input {
     width: 40rem;
     height: auto;
@@ -54,6 +68,23 @@ input {
     backdrop-filter: blur(10px);
     background-color:rgba(0, 0, 0, 0.325);
     color: white;
+}
+
+.passwordButton {
+    background-color:rgba(0, 0, 0, 0.325);
+    border-radius: 0px 15px 15px 0px; 
+    border: none;
+    outline: none;
+    font-size: 25px;
+}
+
+.passwordInput {
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    width: 37rem;
+    border-radius: 15px 0px 0px 15px;
 }
 
 input:focus {
@@ -86,6 +117,22 @@ input:focus {
 .login:hover,.login2:hover {
     scale: 1.1;
     box-shadow: 0px 0px 20px white;
+}
+
+.passwordInput:focus {
+    box-shadow: 0px 0px 0px;
+}
+
+.pass:hover {
+    box-shadow: 0px 0px 20px white !important;
+}
+.pass:focus {
+    outline: none !important;
+    box-shadow: 0px 0px 20px white !important;
+}
+.pass:active {
+    outline: none !important;
+    box-shadow: 0px 0px 20px white !important;
 }
 
 @media only screen and (max-width: 678px) {
@@ -132,5 +179,24 @@ input:focus {
         margin-left: 0px !important;
         margin-right: 0px !important;
         padding: 12px 20px !important;
+    }
+    .passwordInput {
+        width: 13.5rem !important;
+        background-color: transparent !important;
+        border: none !important;
+        outline: none !important;
+        color: white !important;
+    }
+
+    .passwordInput:focus {
+        box-shadow: 0px 0px 0px;
+    }
+
+    .pass:hover {
+        box-shadow: 0px 0px 20px white !important;
+    }
+    .pass:focus {
+        outline: none !important;
+        box-shadow: 0px 0px 20px white !important;
     }
 }
