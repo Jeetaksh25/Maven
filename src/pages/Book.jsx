@@ -41,7 +41,7 @@ const Book = () => {
         <img src="./public/Content/Book1.png" alt="Doctor1" width={300} />
       </div>
       <div className='Form'>
-      <h1>Book a session</h1>
+      <h1 style={{marginTop: "30px"}}>Book a session</h1>
         <form onSubmit={handleSubmit}>
           <input type="text" placeholder="Your Name" required />
           <input type="email" placeholder="Your Email" required />

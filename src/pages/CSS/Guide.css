@@ -262,101 +262,102 @@
         width: 95% !important;
         margin: 0px auto !important;
         background-size: cover !important;
+        margin-top: -40px !important;
     }
     .level1 {
         position: absolute;
-        top: 167.5% !important;
+        top: 162% !important;
         left: 82.4% !important;
         font-size: 13px !important;
         padding: 10px !important;
     }
     .level2 {
         position: absolute;
-        top: 153% !important;
+        top: 147.5% !important;
         left: 82% !important;
         font-size: 13px !important;
         padding: 10px !important;
     }
     .level3 {
         position: absolute;
-        top: 146.5% !important;
+        top: 141% !important;
         left: 44.5% !important;
         font-size: 13px !important;
         padding: 10px !important;
     }
     .level4 {
         position: absolute;
-        top: 133.7% !important;
+        top: 128.5% !important;
         left: 22.5% !important;
         font-size: 13px !important;
         padding: 10px !important;
     }
     .level5 {
         position: absolute;
-        top: 123.4% !important;
+        top: 117.7% !important;
         left: 55.3% !important;
         font-size: 13px !important;
         padding: 10px !important;
     }
     .level6 {
         position: absolute;
-        top: 117% !important;
+        top: 112% !important;
         left: 83% !important;
         font-size: 13px !important;
         padding: 10px !important;
     }
     .level7 {
         position: absolute;
-        top: 95.8% !important;
+        top: 90.3% !important;
         left: 74.2% !important;
         font-size: 13px !important;
         padding: 10px !important;
     }
     .level8 {
         position: absolute;
-        top: 92.2% !important;
+        top: 86.7% !important;
         left: 32.8% !important;
         font-size: 13px !important;
         padding: 10px !important;
     }
     .level9 {
         position: absolute;
-        top: 80% !important;
+        top: 74.5% !important;
         left: 27.5% !important;
         font-size: 13px !important;
         padding: 10px !important;
     }
     .level10 {
         position: absolute;
-        top: 68.7% !important;
+        top: 63.2% !important;
         left: 56% !important;
         font-size: 13px !important;
         padding: 10px !important;
     }
     .level11{
         position: absolute;
-        top: 47.8% !important;
+        top: 42.3% !important;
         left: 80% !important;
         font-size: 13px !important;
         padding: 10px !important;
     }
     .level12 {
         position: absolute;
-        top: 43% !important;
+        top: 37.5% !important;
         left: 50% !important;
         font-size: 13px !important;
         padding: 10px !important;
     }
     .level13{
         position: absolute;
-        top: 34.5% !important;
+        top: 29% !important;
         left: 15.4% !important;
         font-size: 13px !important;
         padding: 10px !important;
     }
     .level14{
         position: absolute;
-        top: 22.9% !important;
+        top: 17.4% !important;
         left: 45% !important;
         font-size: 13px !important;
         padding: 10px !important;
