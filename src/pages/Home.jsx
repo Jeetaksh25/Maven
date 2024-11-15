@@ -28,10 +28,10 @@ const Home = () => {
   
   return (
     <>
-      <h1 align="center" style={{ fontSize: "50px",marginTop: "5px",display: "block", justifyContent: "center", alignItems: "center",color: "white"}}>Maven, Your Friend</h1>
+      <h1 align="center" className='MainHeading'>Maven, Your Friend</h1>
       <div className='intro'>
         <div className='introL'>
-          <img src="/public/Content/images/Maven.png" alt="Maven" width={400} />
+          <img src="/public/Content/images/Maven.png" alt="Maven" className='Mavenimg' />
         </div>
         <div className='introR'>
           <h1 data-aos="fade-right">Welcome meowy friend!!</h1>
@@ -70,7 +70,7 @@ const Home = () => {
     </div>
 
     <div class="TypesH">
-        <h1 style={{marginTop:"60px",marginBottom:"40px",color:"black",fontSize:"50px"}}>Types of mental health issues</h1>
+        <h1 style={{marginTop:"60px",marginBottom:"40px",color:"black",fontSize:"50px"}} className='TypesH'>Types of mental health issues</h1>
     </div>
 
     <div class="Types">

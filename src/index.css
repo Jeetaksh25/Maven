@@ -1,29 +1,65 @@
-@media (max-width: 850px) {
+@media (max-width: 678px) {
   .headerC {
-    flex-direction: column;
-    align-items: flex-start;
+    position: fixed !important;
+    top: 0 !important;
+    left: -150% !important;
+    height: 100vh !important;
+    width: max-content !important; 
+    background-color: rgba(0, 0, 0, 0.864) !important;
+    transition: left 0.3s ease !important;
+    z-index: 100 !important;
+    flex-direction: column !important;
+    padding-right: 10px !important;
+    margin-left: -50px !important;
+    overflow-y: auto !important;
   }
+
+  .headerC.open {
+    left: 0 !important;
+  }
+
+  .menu-toggle {
+    display: block !important;
+    position: fixed !important;
+    top: 30px !important;
+    left: 20px !important;
+    z-index: 101 !important; 
+    font-size: 30px !important;
+    color: white !important;
+    cursor: pointer !important;
+    -webkit-tap-highlight-color: transparent;
+    transition: all 0.5s ease !important;
+  }
+
 
   .headerC nav {
-    flex-direction: column;
-    width: 100%;
+    align-items: flex-start !important;
+    padding-top: 120px !important;
+    flex-direction: column !important;
+    gap: 40px !important;
   }
-
   .headerC nav ul {
-    flex-direction: column;
-    flex-wrap: nowrap; 
-    width: 100%; 
-    padding: 0;
-    margin: 0;
+    flex-direction: column !important;
+    gap: 40px !important;
+    flex-wrap: nowrap;
+    outline: none !important;
+    -webkit-tap-highlight-color: transparent;
+    margin-left: 5px !important;
   }
 
-  .headerI {
-    width: 100%; 
-    text-align: left; 
-    padding: 12px 15px; 
-    font-size: 18px; 
+  .headerI,
+  .headerIh {
+    font-size: 18px !important;
+    padding: 10px 15px !important;
+    width: 100% !important;
+    border-radius: 10px 20px 20px 10px !important;
+  }
+
+  body.sidebar-open {
+    overflow: hidden !important;
   }
 }
+
 
 * {
   margin: 0;
@@ -38,6 +74,10 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: start;
+}
+
+.menu-toggle {
+  display: none;
 }
 
 .headerC {

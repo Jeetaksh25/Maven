@@ -2,6 +2,14 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.MainHeading {
+   font-size: 50px;
+   margin-top: 5px;
+   display: block;
+   justify-content: center;
+   align-items: center;
+   color: white;
+}
 body {
   min-width: 100%;
   min-height: 100%;
@@ -25,6 +33,9 @@ body {
     background-color:rgba(0, 0, 0, 0.325);
 }
 
+.Mavenimg {
+  width: 400px;
+}
 .introL {
     flex: 1;
     display: flex;
@@ -207,7 +218,7 @@ body {
   color: white;
 }
 
-.ServicesC, p {
+.ServicesC p {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 20px;
   color: #383838;
@@ -353,5 +364,145 @@ body {
     overflow: auto;
 }
 
+@media only screen and (max-width: 678px) {
+  
+  .MainHeading {
+    width: 100% !important;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 45px !important;
+    margin-top: -30px !important;
+  }
 
+  .intro {
+    width: 95% !important;
+  }
 
+  .introL {
+    width: 100% !important;
+    flex: 1 !important;
+  }
+
+  .introR h1 {
+    font-size: 20px !important;
+  }
+
+  .Mavenimg {
+    width: 500px !important;
+  }
+
+  .Quote {
+    width: 95% !important;
+    margin: 30px auto !important;
+  }
+
+  .Quote h1 {
+    font-size: 20px;
+  }
+
+  .Quote h2 {
+    font-size: 18px;
+  }
+
+  .GetStarted {
+    font-size: 15px !important;
+    padding: 10px 20px;
+    margin: 10px auto;
+    box-sizing: border-box;
+  }
+  
+  .ServicesC {
+    width: 95% !important;
+    margin: 30px auto !important;
+    margin-bottom: 15px !important;
+  }
+
+  .ServicesC h1 {
+    font-size: 30px !important;
+    margin-bottom: 10px !important;
+  }
+
+  .ServicesC p {
+    font-size: 18px !important;
+    font-weight: 600 !important;
+  }
+
+  .Blocks1 {
+    margin-top: 15px !important;
+    width: 95% !important;
+    display: grid;
+    grid-template: 1fr 1fr/1fr 1fr;
+    gap: 0px;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+
+  .Block1img {
+    height: 110px !important;
+    width: 150px !important;
+  }
+
+  .Block1text{
+    margin-top: 0px;
+    font-size: 15px !important;
+    padding: 0px !important;
+    width: 80% !important;
+    box-sizing: border-box !important;
+  }
+
+  .TypesH {
+    font-size: 35px !important;
+    margin-bottom: 15px !important;
+  }
+
+  .Types {
+    width: 95% !important;
+    display: grid;
+    grid-template: 1fr 1fr/1fr 1fr;
+    row-gap: 0px;
+    column-gap: 25px;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin-bottom: 30px !important;
+  }
+
+  .Type {
+    width: 150px !important;
+    height: 150px !important;
+    margin-bottom: 10px !important;
+  }
+
+  .Type img {
+    width: 100px !important;
+    height: 100px !important;
+  }
+
+  .Type p {
+    font-size: 18px !important;
+    margin-top: 10px !important;
+  }
+
+  .description {
+    background-color: black;
+    position: absolute;
+    width: 200px !important;
+    z-index: 999 !important;
+    overflow: scroll !important;
+  }
+
+  .QuizC {
+    width: 95% !important;
+    margin: 60px auto !important;
+  }
+
+  .QuizC h1 {
+    font-size: 35px !important;
+  }
+
+  .QuizC p {
+    font-size: 20px !important;
+    width: 100% !important;
+  }
+}
