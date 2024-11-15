@@ -124,7 +124,7 @@ const Home = () => {
 
         <div class="Type">
             <img src="./public/Content/images2/Substance-related-Addictive.png" class="TypeI" width="200px" data-aos="flip-left" loading='lazy'/>
-            <p>Substance-Related and Addictive Disorder</p>
+            <p>Addictive Disorder</p>
             <div className='description'>
               <p style={{color:"white"}}>This type of disorder involves the harmful use of psychoactive substances, including alcohol and drugs, leading to significant impairment or distress. These disorders can cause physical, psychological, and social issues, making it challenging for individuals to manage their lives.</p>
             </div>

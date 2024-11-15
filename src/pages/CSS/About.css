@@ -42,3 +42,26 @@
     box-sizing: border-box;
     font-size: 1.4em;
 }
+
+@media only screen and (max-width: 678px) {
+    .AboutC {
+        margin-top: -40px !important;
+        border-radius: 15px !important;
+        width: 95% !important;
+        padding: 20px !important;
+    }
+    .AboutH {
+        font-size: 30px !important;
+        font-weight: 700;
+        padding: 0px !important;
+        margin: 0px !important;
+    }
+    .AboutD {
+        margin: 10px !important;
+        border-radius: 15px !important;
+        width: 95% !important;
+        font-size: 10px !important;
+        gap: 10px !important;
+        padding: 20px !important;
+    }
+}

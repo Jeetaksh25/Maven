@@ -33,10 +33,11 @@ const Login = () => {
                 <input type="email" placeholder="Enter Email" />
                 <input type="password" placeholder="Enter Password" />
                 <button type="submit" className='login'>{isRegister ? 'Register' : 'Login'}</button>
+                <button onClick={() => setIsRegister(!isRegister)} className='login'>
+                    {isRegister ? 'Already have an account? Login' : 'New user? Register'}
+                </button>
             </form>
-            <button onClick={() => setIsRegister(!isRegister)} className='login2'>
-                {isRegister ? 'Already have an account? Login' : 'New user? Register'}
-            </button>
+
           </div>
         </div>
     );
