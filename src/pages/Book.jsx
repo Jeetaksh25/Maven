@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react'; 
 import './CSS/Book.css';
-
 const Book = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -42,13 +41,15 @@ const Book = () => {
         <img src="./public/Content/Book1.png" alt="Doctor1" width={300} />
       </div>
       <div className='Form'>
+      <h1>Book a session</h1>
         <form onSubmit={handleSubmit}>
-          <h1>Book a session</h1>
           <input type="text" placeholder="Your Name" required />
           <input type="email" placeholder="Your Email" required />
           <input type="tel" placeholder="Your Phone Number" required />
-          <input type="date" id='date' required />
-          <input type="time" id='time' required />
+          <label htmlFor="" className='datelabel'>Select a Date</label>
+          <input type="date" id='date' placeholder='Select a Date' required />
+          <label htmlFor="" className='timelabel'>Select a Time</label>
+          <input type="time" id='time' placeholder='Select a Time' required />
           <button type="submit" className='bookB'>Book a session</button>
           {showJoinButton && (
             <a 

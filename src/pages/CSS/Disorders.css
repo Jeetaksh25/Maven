@@ -41,6 +41,7 @@
     padding: 20px !important;
     gap: 30px !important;
     margin-top: -40px !important;
+    border-radius: 15px !important;
   }
   .MainC h1 {
     font-size: 30px !important;
@@ -48,6 +49,7 @@
   .contentC {
     width: 95% !important;
     padding: 15px !important;
+    border-radius: 15px !important;
   }
   .contentC .title {
     font-size: 20px !important;
