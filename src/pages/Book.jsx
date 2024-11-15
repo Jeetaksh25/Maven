@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'; 
 import './CSS/Book.css';
+import { setDate } from 'date-fns';
 const Book = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -7,6 +8,8 @@ const Book = () => {
 
   const [showJoinButton, setShowJoinButton] = useState(false);
   const [bookingTime, setBookingTime] = useState(null);
+  const [datelabel,setdateLabel]=useState('Select a date');
+  const [timelabel,settimeLabel]=useState('Select a time');
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -35,6 +38,17 @@ const Book = () => {
     }
   };
 
+
+  function handleDateChange(e) {
+    const value = e.target.value;
+    setdateLabel(value ? "" : "Select a date");
+  }
+
+  function handleTimeChange(e) {
+    const value = e.target.value;
+    settimeLabel(value ? "" : "Select a time");
+  }
+
   return (
     <div className='BookC'>
       <div className='Doctor'>
@@ -46,10 +60,15 @@ const Book = () => {
           <input type="text" placeholder="Your Name" required />
           <input type="email" placeholder="Your Email" required />
           <input type="tel" placeholder="Your Phone Number" required />
-          <label htmlFor="" className='datelabel'>Select a Date</label>
-          <input type="date" id='date' placeholder='Select a Date' required />
-          <label htmlFor="" className='timelabel'>Select a Time</label>
-          <input type="time" id='time' placeholder='Select a Time' required />
+          <div className='dateC'>
+            <label htmlFor="" className='datelabel'>{datelabel}</label>
+            <input type="date" id='date' placeholder='Select a Date' onChange={handleDateChange} required />
+          </div>
+          <div className='dateC'>
+            <label htmlFor="" className='datelabel'>{timelabel}</label>
+            <input type="time" id='time' placeholder='Select a Time' onChange={handleTimeChange} required />
+          </div>
+
           <button type="submit" className='bookB'>Book a session</button>
           {showJoinButton && (
             <a 

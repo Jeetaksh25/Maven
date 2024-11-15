@@ -96,23 +96,17 @@ img {
 
     }
     
+    .dateC {
+        position: relative;
+    }
     .datelabel {
-        position: absolute !important;
-        top: 58.8% !important;
-        left: 18.3% !important;
+        position: absolute;
+        top: 30% !important;
+        left: 8% !important;
         color: rgb(134, 134, 134) !important;
         font-size: 18px !important;
         display: block !important;
         z-index: 9999 !important;
     }
-
-    .timelabel {
-        position: absolute !important;
-        top: 73.5% !important;
-        left: 18.3% !important;
-        color: rgb(134, 134, 134) !important;
-        font-size: 18px !important;
-        display: block !important;
-        z-index: 9999 !important;
-    }
+    
 }
