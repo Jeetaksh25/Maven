@@ -1,10 +1,7 @@
 .container {
     width: 100%;
     height: max-content;
-    background-image: url("https://github.com/Jeetaksh25/Maven/blob/main/public/Content/Background/loginbg.jpg?raw=true");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: linear-gradient(145deg, rgb(102, 0, 94), rgba(161, 4, 166, 0.846),rgba(171, 1, 154, 0.886),rgba(128, 2, 207, 0.629),rgba(21, 1, 150, 0.766), rgba(11, 2, 93, 0.869), rgb(18, 0, 81));
     padding: 50px;
 }
 
