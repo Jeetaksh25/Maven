@@ -265,7 +265,7 @@ const Quiz = () => {
   };
   return (
     <>
-    <video src="/public/Content/Background/Quizbg1.mp4" autoPlay muted loop id='bg'/>
+    <video src="https://raw.githubusercontent.com/Jeetaksh25/Maven/main/public/Content/Background/Quizbg1.mp4" autoPlay muted loop id='bg'/>
     <div className="quiz">
       <div className={`quizContainer ${showResult ? 'fade-out' : 'fade-in'}`}>
       {!showResult ? (
