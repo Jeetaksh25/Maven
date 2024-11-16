@@ -14,7 +14,7 @@ body {
   min-width: 100%;
   min-height: 100%;
   z-index: -1;  
-  background-image: url("./public/Content/Background/bg3.jpg");
+  background-image: url("https://raw.githubusercontent.com/Jeetaksh25/Maven/refs/heads/main/public/Content/Background/bg3.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: start;

@@ -52,7 +52,7 @@ const Book = () => {
   return (
     <div className='BookC'>
       <div className='Doctor'>
-        <img src="./public/Content/Book1.png" alt="Doctor1" width={300} />
+        <img src="https://raw.githubusercontent.com/Jeetaksh25/Maven/refs/heads/main/public/Content/Book1.png" alt="Doctor1" width={300} />
       </div>
       <div className='Form'>
       <h1 style={{marginTop: "30px"}}>Book a session</h1>
@@ -82,7 +82,7 @@ const Book = () => {
         </form>
       </div>
       <div className='Doctor'>
-        <img src="./public/Content/Book2.png" alt="Doctor2" width={300} />
+        <img src="https://raw.githubusercontent.com/Jeetaksh25/Maven/refs/heads/main/public/Content/Book2.png" alt="Doctor2" width={300} />
       </div>
     </div>
   );
