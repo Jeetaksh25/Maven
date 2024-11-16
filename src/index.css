@@ -107,7 +107,7 @@
 body {
   margin-top: 120px;
   overflow: auto;
-  background-image: url("./public/Content/Background/bg3.jpg");
+  background-image: url("https://raw.githubusercontent.com/Jeetaksh25/Maven/refs/heads/main/public/Content/Background/bg3.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: start;
